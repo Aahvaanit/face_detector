@@ -11,6 +11,7 @@ grayscaled_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # detects faces
 face_coordinates = trained_face_data.detectMultiScale(grayscaled_img)
+print(face_coordinates)
 
 # shows image
 cv2.imshow("Face Detector", grayscaled_img)
