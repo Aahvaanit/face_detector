@@ -7,7 +7,7 @@ smile_detector = cv2.CascadeClassifier("haarcascade_smile.xml")
 # to capture video from webcam
 webcam = cv2.VideoCapture(0)
 
-print("\n\n\033[1;32m PRESS Q TO QUIT PROGRAM\033[0m \n\n")
+print("\n\n\033[1;32m PRESS Q TO QUIT PROGRAM \033[0m \n\n")
 
 # loops through frames
 while True:
